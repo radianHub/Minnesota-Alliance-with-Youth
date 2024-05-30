@@ -11,9 +11,9 @@
         <label>State</label>
     </customValue>
     <customValue>
-        <fullName>Americor</fullName>
+        <fullName>AmeriCorps</fullName>
         <default>false</default>
-        <label>Americor</label>
+        <label>AmericCorps</label>
     </customValue>
     <masterLabel>Grant Types</masterLabel>
     <sorted>false</sorted>

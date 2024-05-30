@@ -131,7 +131,7 @@
         </rules>
         <rules>
             <name>Donation_or_Major_Gift_RT</name>
-            <conditionLogic>2 AND (1 OR 3) AND 4</conditionLogic>
+            <conditionLogic>2 AND (1 OR 3 OR 6) AND 4 AND 5</conditionLogic>
             <conditions>
                 <leftValueReference>isNew</leftValueReference>
                 <operator>EqualTo</operator>
@@ -143,11 +143,11 @@
                 <leftValueReference>$Record.StageName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>To Be Acknowledged</stringValue>
+                    <stringValue>Closed Won</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>$Record.StageName</leftValueReference>
+                <leftValueReference>$Record.npsp__Acknowledgment_Status__c</leftValueReference>
                 <operator>IsChanged</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -158,6 +158,20 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Donation &amp; Major Gift</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.npsp__Acknowledgment_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>To Be Acknowledged</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
                 </rightValue>
             </conditions>
             <connector>

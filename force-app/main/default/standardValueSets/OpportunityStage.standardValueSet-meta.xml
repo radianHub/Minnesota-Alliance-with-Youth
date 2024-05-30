@@ -101,24 +101,6 @@
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>To Be Acknowledged</fullName>
-        <default>false</default>
-        <label>To Be Acknowledged</label>
-        <closed>true</closed>
-        <forecastCategory>Closed</forecastCategory>
-        <probability>100</probability>
-        <won>true</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Acknowledged</fullName>
-        <default>false</default>
-        <label>Acknowledged</label>
-        <closed>true</closed>
-        <forecastCategory>Closed</forecastCategory>
-        <probability>100</probability>
-        <won>true</won>
-    </standardValue>
-    <standardValue>
         <fullName>Withdrawn</fullName>
         <default>false</default>
         <label>Withdrawn</label>

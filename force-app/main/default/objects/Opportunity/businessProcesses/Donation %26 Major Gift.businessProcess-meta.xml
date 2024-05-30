@@ -3,15 +3,15 @@
     <fullName>Donation %26 Major Gift</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Acknowledged</fullName>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
         <default>false</default>
     </values>
     <values>
         <fullName>Pledged</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>To Be Acknowledged</fullName>
         <default>false</default>
     </values>
     <values>

@@ -69,7 +69,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>label</name>
                     <value>Tabs</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -152,7 +151,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>label</name>
                     <value>Tabs</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>

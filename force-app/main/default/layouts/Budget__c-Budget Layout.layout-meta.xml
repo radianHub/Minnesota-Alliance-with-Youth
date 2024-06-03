@@ -169,7 +169,6 @@
         <fields>Unit_Type__c</fields>
         <fields>Goal__c</fields>
         <fields>Actual_Total__c</fields>
-        <quickActions>Reporting_Requirement__c.New_Monthly_Outcome</quickActions>
         <relatedList>Reporting_Requirement__c.Budget__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

@@ -45,7 +45,7 @@
     <picklistValues>
         <picklist>Grant_Type__c</picklist>
         <values>
-            <fullName>Americor</fullName>
+            <fullName>AmeriCorps</fullName>
             <default>false</default>
         </values>
         <values>

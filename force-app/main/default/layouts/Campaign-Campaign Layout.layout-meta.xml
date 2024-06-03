@@ -139,24 +139,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>HierarchyNumberOfResponses</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>HierarchyNumberOfLeads</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>HierarchyNumberOfContacts</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>HierarchyNumberOfConvertedLeads</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
                 <field>HierarchyNumberOfOpportunities</field>
             </layoutItems>
             <layoutItems>
@@ -165,11 +147,21 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>HierarchyNumberOfResponses</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>HierarchyNumberOfWonOpportunities</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>HierarchyAmountWonOpportunities</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>HierarchyNumberOfContacts</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

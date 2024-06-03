@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Unit_Type__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The type of outcome requirement that you are measuring, I.E. &quot;Number of Enrolled Students&quot;, &quot;Number of Students Served&quot;, &quot;Percentage of Students who Improved, etc.</inlineHelpText>
     <label>Unit Type</label>
     <length>250</length>
     <required>true</required>

@@ -78,15 +78,11 @@
         </dashboardFilterOptions>
         <dashboardFilterOptions>
             <operator>equals</operator>
-            <values>Closed Won</values>
+            <values>Closed Won,Awarded</values>
         </dashboardFilterOptions>
         <dashboardFilterOptions>
             <operator>equals</operator>
-            <values>Awarded</values>
-        </dashboardFilterOptions>
-        <dashboardFilterOptions>
-            <operator>equals</operator>
-            <values>Denied</values>
+            <values>Closed Lost,Denied,Withdrawn</values>
         </dashboardFilterOptions>
         <dashboardFilterOptions>
             <operator>equals</operator>

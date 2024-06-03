@@ -3,11 +3,19 @@
     <fullName>Grant Opportunities</fullName>
     <isActive>true</isActive>
     <values>
+        <fullName>Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
         <fullName>Awarded</fullName>
         <default>false</default>
     </values>
     <values>
         <fullName>Denied</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Letter of Intent</fullName>
         <default>false</default>
     </values>
     <values>
@@ -19,7 +27,11 @@
         <default>false</default>
     </values>
     <values>
-        <fullName>Qualification</fullName>
+        <fullName>Processing</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Researching</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>

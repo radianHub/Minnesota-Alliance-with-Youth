@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_Amount_Per_RR</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ Aggregate_Total__c &gt; 0,
+
+ NOT(
+     ISBLANK( Total_Percentage__c )
+    )
+)</errorConditionFormula>
+    <errorMessage>Percentages cannot be populated on a requirement that has an aggregate total.</errorMessage>
+</ValidationRule>

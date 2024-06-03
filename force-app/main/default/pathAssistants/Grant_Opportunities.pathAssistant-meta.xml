@@ -16,9 +16,7 @@
         <picklistValueName>Need to Follow Up</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <fieldNames>Amount</fieldNames>
-        <fieldNames>Grant_Type__c</fieldNames>
-        <picklistValueName>Qualification</picklistValueName>
+        <picklistValueName>Researching</picklistValueName>
     </pathAssistantSteps>
     <recordTypeName>Grant</recordTypeName>
 </PathAssistant>

@@ -21,6 +21,24 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Recurring_Donation_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>npe03__Recurring_Donation__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Recurring_Donation_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>npe03__Recurring_Donation__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>General_Accounting_Unit_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -171,6 +189,7 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>npe03__Recurring_Donation__c</tabs>
     <tabs>standard-ActionCadence</tabs>
     <tabs>npsp__General_Accounting_Unit__c</tabs>
     <tabs>Budget__c</tabs>

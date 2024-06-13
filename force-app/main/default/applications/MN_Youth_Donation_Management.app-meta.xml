@@ -196,6 +196,7 @@
     <tabs>Reporting_Requirement__c</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>
+    <tabs>standard-Event</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>MN_Youth_Donation_Management_UtilityBar</utilityBar>
 </CustomApplication>

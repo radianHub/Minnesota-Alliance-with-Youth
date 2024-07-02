@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Grant Opportunities</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Congratulations!&lt;/p&gt;</info>
+        <picklistValueName>Awarded</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AccountId</fieldNames>
+        <fieldNames>npsp__Primary_Contact__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <info>&lt;p&gt;See the Sales Engagement task list on the right hand side.&lt;/p&gt;</info>
+        <picklistValueName>Need to Follow Up</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <picklistValueName>Researching</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Grant</recordTypeName>
+</PathAssistant>

@@ -20,9 +20,14 @@
                 <label>Sponsorship</label>
             </value>
             <value>
-                <fullName>Foundation Donation</fullName>
+                <fullName>In-Kind Donation</fullName>
                 <default>false</default>
-                <label>Foundation Donation</label>
+                <label>In-Kind Donation</label>
+            </value>
+            <value>
+                <fullName>Corporate Gift</fullName>
+                <default>false</default>
+                <label>Corporate Gift</label>
             </value>
         </valueSetDefinition>
     </valueSet>

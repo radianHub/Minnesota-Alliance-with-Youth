@@ -30,7 +30,11 @@
     <picklistValues>
         <picklist>Gift_Type__c</picklist>
         <values>
-            <fullName>Foundation Donation</fullName>
+            <fullName>Corporate Gift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Kind Donation</fullName>
             <default>false</default>
         </values>
         <values>

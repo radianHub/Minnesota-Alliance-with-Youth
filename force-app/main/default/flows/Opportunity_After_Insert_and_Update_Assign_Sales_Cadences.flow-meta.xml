@@ -24,6 +24,12 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>userId</name>
+            <value>
+                <elementReference>$Record.Owner.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>relatedToId</name>
             <value>
                 <elementReference>$Record.Id</elementReference>
@@ -54,6 +60,12 @@
             <name>targetId</name>
             <value>
                 <elementReference>$Record.npsp__Primary_Contact__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>userId</name>
+            <value>
+                <elementReference>$Record.Owner.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
